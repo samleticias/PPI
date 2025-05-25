@@ -1,0 +1,11 @@
+5) Qual a diferença entre as propriedades textContent, innerText e innerHTML dos
+elementos HTML? Cite exemplos.
+
+As propriedades textContent, innerText e innerHTML são usadas para acessar ou alterar o conteúdo de elementos HTML, mas funcionam de maneiras 
+diferentes. A propriedade textContent retorna todo o texto do elemento, inclusive o que está oculto por CSS, e ignora as tags HTML. Já 
+innerText retorna apenas o texto visível na tela, respeitando estilos como display: none. Por fim, innerHTML retorna o conteúdo completo do
+elemento, incluindo as tags HTML internas, e permite inserir HTML.
+
+textContent: texto total, inclusive oculto, sem tags.
+innerText: só o texto visível, sem tags.
+innerHTML: inclui HTML interno (tags e texto).
